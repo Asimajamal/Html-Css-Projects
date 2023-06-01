@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation | Javascript</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <script
+      src="https://kit.fontawesome.com/bd03566d29.js"
+      crossorigin="anonymous"
+    ></script>
+  <body>
+    <header>
+      <nav>
+        <h1>JavaScript Documentation</h1>
+        <ul>
+          <a href="#intro"><li>An Introduction</li></a>
+          <a href="#h1"><li>What is JavaScript?</li></a>
+          <a href="#h3"><li>What CAN’T in-browser JavaScript do?</li></a>
+          <a href="#h2"><li>What can in-browser JavaScript do?</li></a>
+          <a href="#h4"> <li>What makes JavaScript unique?</li></a>
+          <a href="#h5"><li>Languages “over” JavaScript</li></a>
+          <a href="#h6"> <li>Summary</li></a>
+          <a href="#comments"> <li>Comments</li></a>
+        
+        </ul>
+        
+        <div>
+          <p>share</p>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-github"></i>
+              <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+          
+        </div>
+
+        
+      </nav>
+    </header>
+
+    <main>
+      <section id="intro">
+        <h3>An Introduction to JavaScript</h3>
+        <article>
+          <p>
+            Let’s see what’s so special about JavaScript, what we can achieve
+            with it, and what other technologies play well with it.
+          </p>
+          <p>
+            The syntax of JavaScript does not suit everyone’s needs. Different
+            people want different features. That’s to be expected, because
+            projects and requirements are different for everyone. So, recently a
+            plethora of new languages appeared, which are transpiled (converted)
+            to JavaScript before they run in the browser. Modern tools make the
+            transpilation very fast and transparent, actually allowing
+            developers to code in another language and auto-converting it “under
+            the hood”.
+          </p>
+
+          <ul>
+            <li>
+              When JavaScript was created, it initially had another name:
+              “LiveScript”. But Java was very popular at that time, so it was
+              decided that positioning a new language as a “younger brother” of
+              Java would help.
+            </li>
+            <li>
+              But as it evolved, JavaScript became a fully independent language
+              with its own specification called ECMAScript, and now it has no
+              relation to Java at all.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="h1">
+        <h3>What is JavaScript?</h3>
+        <article>
+          <p>JavaScript was initially created to “make web pages alive”.</p>
+          <p>
+            The programs in this language are called scripts. They can be
+            written right in a web page’s HTML and run automatically as the page
+            loads.
+          </p>
+          <p>
+            Scripts are provided and executed as plain text. They don’t need
+            special preparation or compilation to run.
+          </p>
+          <p>
+            In this aspect, JavaScript is very different from another language
+            called Java.
+          </p>
+
+          <code
+            >// Basic Javascript Function to display the name in alert is given
+            function myFunction(name) { alert("your name is " +name) }
+            myFunction("areej");
+          </code>
+          select the given code copy and run in your browser to see the output.
+        </article>
+      </section>
+
+      <section id="h2">
+        <h3>What can in-browser JavaScript do?</h3>
+        <article>
+          <p>
+            Modern JavaScript is a “safe” programming language. It does not
+            provide low-level access to memory or the CPU, because it was
+            initially created for browsers which do not require it.Remember the
+            data on the client-side (“local storage”).
+          </p>
+          JavaScript’s capabilities greatly depend on the environment it’s
+          running in. For instance, Node.js supports functions that allow
+          JavaScript to read/write arbitrary files, perform network requests,
+          etc.
+          <p>
+            In-browser JavaScript can do everything related to webpage
+            manipulation, interaction with the user, and the webserver.
+          </p>
+          For instance, in-browser JavaScript is able to:
+          <ul>
+            <li>
+              Add new HTML to the page, change the existing content, modify
+              styles.
+            </li>
+            <li>
+              React to user actions, run on mouse clicks, pointer movements, key
+              presses.
+            </li>
+            <li>
+              Send requests over the network to remote servers, download and
+              upload files (so-called AJAX and COMET technologies).
+            </li>
+            <li>
+              Get and set cookies, ask questions to the visitor, show messages.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="h3">
+        <h3>What CAN’T in-browser JavaScript do?</h3>
+        <article>
+          <p>
+            JavaScript’s abilities in the browser are limited to protect the
+            user’s safety. The aim is to prevent an evil webpage from accessing
+            private information or harming the user’s data.
+          </p>
+          Examples of such restrictions include:
+
+          <ul>
+            <li>
+              JavaScript on a webpage may not read/write arbitrary files on the
+              hard disk, copy them or execute programs. It has no direct access
+              to OS functions.
+            </li>
+            <li>
+              Different tabs/windows generally do not know about each other.
+              Sometimes they do, for example when one window uses JavaScript to
+              open the other one. But even in this case, JavaScript from one
+              page may not access the other page if they come from different
+              sites (from a different domain, protocol or port).
+            </li>
+            <li>
+              JavaScript can easily communicate over the net to the server where
+              the current page came from. But its ability to receive data from
+              other sites/domains is crippled. Though possible, it requires
+              explicit agreement (expressed in HTTP headers) from the remote
+              side. Once again, that’s a safety limitation.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="h4">
+        <h3>What makes JavaScript unique?</h3>
+        <article>
+          <p>There are at least three great things about JavaScript:</p>
+
+          <ul>
+            <li>Full integration with HTML/CSS.</li>
+            <li>Full integration with HTML/CSS.</li>
+            <li>Supported by all major browsers and enabled by default.</li>
+          </ul>
+          <p>
+            JavaScript is the only browser technology that combines these three
+            things. <p>That’s what makes JavaScript unique. That’s why it’s the
+            most widespread tool for creating browser interfaces.</p> That said,
+            JavaScript can be used to create servers, mobile applications, etc.
+          </p>
+        </article>
+      </section>
+      <section id="h5">
+        <h3>Languages “over” JavaScript</h3>
+        <article>
+          <p>
+            The syntax of JavaScript does not suit everyone’s needs. Different people want different features.
+          </p>
+          <p>
+            That’s to be expected, because projects and requirements are different for everyone.
+          </p>
+Modern tools make the transpilation very fast and transparent, actually allowing developers to code in another language and auto-converting it “under the hood”.
+          <ul>
+            <li>
+            CoffeeScript is “syntactic sugar” for JavaScript. It introduces shorter syntax, allowing us to write clearer and more precise code. Usually, Ruby devs like it.
+            </li>
+            <li>
+             Flow also adds data typing, but in a different way. Developed by Facebook.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="h6">
+        <h3>Summary</h3>
+        <article>
+          
+          <ul>
+            <li>
+              JavaScript was initially created as a browser-only language, but it is now used in many other environments as well.
+            </li>
+            <li>
+              Today, JavaScript has a unique position as the most widely-adopted browser language, fully integrated with HTML/CSS.
+            </li>
+            <li>There are many languages that get “transpiled” to JavaScript and provide certain features. It is recommended to take a look at them, at least briefly, after mastering JavaScript.</li>
+          </ul>
+        </article>
+      </section>
+      </section>
+      <section id="Comments">
+        <div id="comm"><i class="fa fa-message"></i><h3>Comments</h3></div>
+        <div id="login">
+          <p>290 Comments</p>
+          <span><i class="fa fa-message"></i> Login <i id="dropdown"></i></span>
+        </div>
+
+        <div>
+       
+          <textarea name="text" id="text" cols="100" rows="10" placeholder="Join the discussion....."></textarea>
+        
+        </div>
+        <button>Send</button>
+      </section>
+
+      <!-- <hr>
+      <hr> -->
+    </main>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+/* header */
+
+.main-container {
+  width: 100%;
+}
+.container {
+  display: flex;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+}
+
+/* .logo img {
+  width: 150px;
+} */
+
+/* center Nav */
+.center-nav {
+  display: flex;
+}
+.search {
+  display: flex;
+}
+
+.center-nav input {
+  padding: 10px 20px;
+  min-width: 600px;
+  border: 0.5px solid rgb(226, 225, 225);
+}
+
+.search button {
+  padding: 10px 20px;
+  border: none;
+}
+
+.mic {
+  background-color: rgb(226, 225, 225);
+  padding: 15px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-left: 15px;
+}
+
+/* Side Nav  */
+.side-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  padding: 10px 20px;
+  gap: 15px;
+  border-top: 1px solid rgb(213, 208, 208);
+}
+.tag {
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid rgb(127, 124, 124);
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: rgb(231, 223, 223);
+}
+
+/* Side Bar */
+.aside {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.side-icons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.side-icons img {
+  width: 30px;
+}
+.side-icons p {
+  font-size: 10px;
+  margin-top: -5px;
+}
+.bars {
+  margin-top: 15px;
+}
+
+/* Main grid */
+main {
+  min-height: 100vh;
+  background-color: rgb(247, 243, 243);
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.card {
+  padding: 10px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.avatar-content {
+  padding-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 300;
+}
+.chanel {
+  font-size: 16px;
+  font-weight: bold;
+}
+.status {
+  display: flex;
+  font-size: 14px;
+  gap: 10px;
+}
