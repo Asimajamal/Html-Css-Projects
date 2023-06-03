@@ -21,7 +21,8 @@ https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/41b5d083-c877
 https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/0cf16ccb-bce0-4057-b225-9d2f3597fb07
 
 # Html-Css-Projects - Project7 output
-![image](https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/c32aa769-3083-4077-8683-afe3ba7d1220)
+![image](https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/72345a5a-467e-4f32-a009-837458d9754c)
+
 
 # Html-Css-Projects - Project8 output
 https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/8a508cf6-e6e4-4f26-82b8-9b75e5b94b66
