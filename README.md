@@ -1,4 +1,10 @@
 
+# Html-Css-Projects - Project1 output
+![image](https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/dbe987d5-e70f-4742-b1cb-f08c6f8c8e65)
+
+
+# Html-Css-Projects - Project2 output
+![image](https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/9e698496-6d67-497f-9157-458b77aaf928)
 
 # Html-Css-Projects - Project3 output
 https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/41b5d083-c877-49d6-a4db-e328f8e54b09
@@ -12,3 +18,10 @@ https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/41b5d083-c877
 ![image](https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/c4c24f6e-55d9-4a36-be96-7a860b324fea)
 
 # Html-Css-Projects - Project6 output
+https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/0cf16ccb-bce0-4057-b225-9d2f3597fb07
+
+# Html-Css-Projects - Project7 output
+![image](https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/c32aa769-3083-4077-8683-afe3ba7d1220)
+
+# Html-Css-Projects - Project8 output
+https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/8a508cf6-e6e4-4f26-82b8-9b75e5b94b66
