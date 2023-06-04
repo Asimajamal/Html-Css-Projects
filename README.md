@@ -30,3 +30,7 @@ https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/8a508cf6-e6e4
 
 #  Project9 (Blog Website) output
 https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/7060d42b-8231-4f01-b1d9-fe837c55ae1a
+
+
+#  Project10 (Portfolio Website) output
+https://github.com/AsimaJamal789/Html-Css-Projects/assets/80631520/9161aaf4-b7da-4f4b-a7b5-91dd586c9ef7
