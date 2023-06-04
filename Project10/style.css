@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+
+:root {
+  --lighting-color: #375769;
+  --darker-color: #2d3b4c;
+  --dark-color: #274c51;
+  --secondary-color: #ecd100;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+html {
+  /* 1rem now equal to 10px for 62.5% and with this we can make it responsive easily
+  if we decrese or increase in media-query this will apply everywhere*/
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+/* header */
+header {
+  background-color: var(--lighting-color);
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+nav li {
+  font-size: 1.8rem;
+  border-bottom: 0.2rem transparent solid;
+  transition: 0.2s ease-in-out;
+}
+nav li:hover {
+  border-bottom: 0.2rem var(--secondary-color) solid;
+  transition: 0.2s ease-in-out;
+}
+
+/* Hero section */
+
+#hero {
+  background-color: var(--dark-color);
+  padding: 4rem 0;
+  border-bottom: 4px solid var(--lighting-color);
+}
+
+.hero-image img {
+  background-color: var(--darker-color);
+  border-radius: 15rem;
+  padding: 7rem 0 0;
+  height: 40rem;
+  max-width: 30rem;
+}
+
+#hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hero-content {
+  display: grid;
+  place-items: center;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hi-text {
+  font-size: 6rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+.name-text {
+  font-size: 5rem;
+}
+
+#hero h2 {
+  font-size: 3rem;
+  font-weight: bold;
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */ /* Adjust as needed */
+  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+/* project section */
+#project {
+  background-color: var(--darker-color);
+  border-bottom: 4px solid var(--lighting-color);
+}
+#project h2 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 6rem;
+}
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.grid-item {
+  display: grid;
+  place-items: center;
+}
+.card {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+
+.card img {
+  height: 20.5rem;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+  opacity: 0.8;
+}
+
+.card-content {
+  padding: 2rem;
+  position: relative;
+  top: -6.5rem;
+  margin-bottom: -6.5rem;
+  transition: 0.5s ease-in-out;
+  transform: translateY(100px);
+}
+.card-content h3 {
+  text-align: center;
+}
+
+.card:hover .card-content {
+  background: white;
+  color: var(--dark-color);
+
+  transform: translateY(0px);
+}
+
+/* contact section */
+#contact {
+  background: var(--dark-color);
+  border-bottom: 4px solid var(--lighting-color);
+}
+#contact h2 {
+  font-size: 6rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#contact .container {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  gap: 4rem;
+  flex-direction: column;
+}
+
+.top-contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  max-width: 800px;
+  margin: 0 auto;
+}
+.contact-way {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.contact-way i {
+  font-size: 3rem;
+}
+.contact-way h3 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.bottom-contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.bottom-contact {
+  gap: 1rem;
+}
+/* footer */
+footer {
+  background: var(--lighting-color);
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 2rem;
+}
